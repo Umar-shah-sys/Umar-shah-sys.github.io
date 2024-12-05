@@ -124,6 +124,13 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     background-color: var(--clr-accent-300);
+
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -141,7 +148,7 @@ p {
 
     width: min(var(--max-width), 100% - (var(--padding) * 2));
     margin-inline: auto;
-    margin-top: 2rem;
+
 
     background-color: var(--clr-accent-100);
     border-radius: 1.25rem;
